@@ -1,0 +1,62 @@
+Patient Details
+Write a C++ Program for enter Patient details using Inheritance
+Input and Output Format
+
+Refer sample input and output.
+
+Sample Input
+
+Enter Data                                                                                                                                      
+
+Enter Patient Name : SIVA                                                                                                                       
+
+Enter Bed Number : 13                                                                                                                           
+
+Enter Ward Name : 5                                                                                                                             
+
+Enter the Doctor Name : Dinesh                                                                                                                  
+
+Enter Doctorate Degree : MBBS                                                                                                                   
+
+Enter Dues of Patient : 4
+
+Sample Output
+
+Inserted Data                                                                                                                                   
+
+Patient Name : SIVA                                                                                                                             
+
+Bed Number : 13                                                                                                                                 
+
+Ward Name : 5                                                                                                                                   
+
+Doctor Name : Dinesh                                                                                                                            
+
+Doctorate Degree : MBBS                                                                                                                         
+
+Total Dues of Patient : 4
+
+Case 1
+Input (stdin)
+SIVA
+13
+5
+Dinesh
+MBBS
+4
+
+Output (stdout)
+Enter Data
+Enter Patient Name :
+Enter Bed Number :
+Enter Ward Name :
+Enter the Doctor Name :
+Enter Doctorate Degree :
+Enter Dues of Patient :
+Inserted Data
+Patient Name : SIVA
+Bed Number : 13
+Ward Name : 5
+Doctor Name : Dinesh
+Doctorate Degree : MBBS
+Total Dues of Patient : 4
