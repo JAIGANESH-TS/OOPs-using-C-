@@ -1,0 +1,15 @@
+Abstract class - I
+Write a program to implement an abstract class in C++ which has one abstract method draw(). Its implementation is provided by derived classes: Rectangle and Circle. Both classes should have a different implementation. Print the given input value in both derived classes.
+Read the input as integer
+
+Case 1
+Case 2
+Case 3
+Input (stdin)
+6
+
+Output (stdout)
+Rectangle
+The given input is 6
+Circle
+The given input is 6
