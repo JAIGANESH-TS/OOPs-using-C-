@@ -1,0 +1,15 @@
+Student II
+Write a C++ program to create a class for the student to get and print details. Create an object of a class inside another class declaration.
+
+
+Case 1
+Case 2
+Input (stdin)
+jai
+30
+70
+
+Output (stdout)
+jai
+30
+70%
