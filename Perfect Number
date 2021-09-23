@@ -1,0 +1,14 @@
+Perfect Number
+Write a program to check whether the number is a perfect or not using abstraction
+Read the input of type integer
+
+If it is a perfect number, print "Yes " else "No"
+
+Case 1
+Case 2
+Case 3
+Input (stdin)
+5
+
+Output (stdout)
+No
