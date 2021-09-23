@@ -1,0 +1,52 @@
+Payroll System
+Write a C++ program to find out the payroll system using single inheritance.
+Input and Output Format
+
+Refer sample input and output.
+
+Sample Input
+
+Enter the number of employee:1                                                                                                                  
+
+Enter the employee number:1234                                                                                                                  
+
+Enter the employee name:RAJ                                                                                                                     
+
+Enter the designation:Software                                                                                                                  
+
+Enter the basic pay:12000                                                                                                                       
+
+Enter the Humen Resource Allowance:5000                                                                                                         
+
+Enter the Dearness Allowance :2000                                                                                                              
+
+Enter the Profitablity Fund:5000                                                                                                                                          
+
+Sample Output
+
+e_no     e_name  des      bp       hra      da       pf       np                                                                                     
+
+1234    RAJ      Software        12000   5000    2000    5000    14000
+
+Case 1
+Input (stdin)
+1
+1234
+RAJ
+Software
+12000
+5000
+2000
+5000
+
+Output (stdout)
+Enter the number of employee:
+Enter the employee number:
+Enter the employee name:
+Enter the designation:
+Enter the basic pay:
+Enter the Humen Resource Allowance:
+Enter the Dearness Allowance :
+Enter the Profitablity Fund:
+e_no 	 e_name	 des 	 bp 	 hra 	 da 	 pf 	 np
+1234	RAJ	Software	12000	5000	2000	5000	14000
