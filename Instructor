@@ -1,0 +1,54 @@
+Instructor
+Write a C++ Program to print employee details using hybrid inheritance
+Input and Output Format
+
+Refer sample input and output.
+
+Sample Input
+
+Enter No. of Instructor Details You Want :  1                                                                                                                                                                   
+
+Enter Id  :  1234                                                                                                                 
+
+Enter Name :  Ram                                                                                                                       
+
+Enter Subject Name :  Maths                                                                                                                                                                  
+
+Enter Teacher Name :  Surya                                                                             
+
+Enter Department Name :  EEE                                                                                                                    
+
+Sample Output                                                                                                                                        
+
+Id :  1234                                                                                                                                      
+
+Name :  Ram                                                                                                                                     
+
+Subject Name  :  Maths                                                                                                                          
+
+Teacher Name  :  Surya                                                                                                                          
+
+Department Name :  EEE
+
+Case 1
+Case 2
+Input (stdin)
+1
+1234
+Ram
+Maths
+Surya
+EEE
+
+Output (stdout)
+Enter No. of Instructor Details You Want :
+Enter Id  :
+Enter Name :
+Enter Subject Name :
+Enter Teacher Name :
+Enter Department Name :
+Id :  1234
+Name :  Ram
+Subject Name  :  Maths
+Teacher Name  :  Surya
+Department Name :  EEE
