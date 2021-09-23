@@ -1,0 +1,25 @@
+Factorial number
+Write C++ Program to find Factorial of a number using class.
+Input Format:
+
+Input consists of an integer
+
+Output Format:
+
+Output consists of an integer
+
+Sample Input:
+
+4
+
+Sample Output:
+
+24
+
+Case 1
+Case 2
+Input (stdin)
+7
+
+Output (stdout)
+5040
