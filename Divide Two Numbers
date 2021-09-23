@@ -1,0 +1,25 @@
+Divide Two Numbers
+Write a C++ program to divide two numbers using try catch block.
+Input and Output Format
+
+Refer sample input and output.
+
+Sample Input
+
+Enter two numbers: 0                                                                                                                          
+
+1                                                                                                                                             
+
+Sample Output
+
+a/b = 0  
+
+Case 1
+Case 2
+Input (stdin)
+0
+1
+
+Output (stdout)
+Enter two numbers:
+a/b = 0
