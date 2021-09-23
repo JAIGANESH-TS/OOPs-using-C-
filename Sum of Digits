@@ -1,0 +1,25 @@
+Sum of digit
+Write a C++ program to find the sum of digits of a number using class.
+Input Format:
+
+Input consists of a integer
+
+Output Format:
+
+Output consists of a integer
+
+Sample Input:
+
+5467
+
+Sample Output:
+
+22
+
+Case 1
+Case 2
+Input (stdin)
+1896
+
+Output (stdout)
+24
