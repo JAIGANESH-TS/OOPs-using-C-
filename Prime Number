@@ -1,0 +1,25 @@
+Prime Number
+Write aC++ program to fine a given no is prime or not using class and object. If the number is prime print"Prime" else, print "Not Prime".
+Input Format:
+
+Input consists of an integer
+
+Output Format:
+
+Refer sample output
+
+Sample Input:
+
+13
+
+Sample Output:
+
+Prime
+
+Case 1
+Case 2
+Input (stdin)
+12
+
+Output (stdout)
+Not Prime
