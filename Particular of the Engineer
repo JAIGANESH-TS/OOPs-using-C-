@@ -1,0 +1,52 @@
+Particulars of the Engineer
+Write a C++ Program to Overriding member functions using Inheritance
+Input and Output Format
+
+Refer sample input and output
+
+Sample Input
+
+Enter the first name = Ramu                                                                                                                     
+
+Enter the identity number = 12                                                                                                                 
+
+Enter the age = 25                                                                                                                                                                                                                   
+
+Enter the salary = 50000   
+
+Enter the designation of the Engineer: Content                                                                                                                                                           
+
+Sample Output
+
+Displaying the particulars of the Engineer                                                                                                      
+
+Name = Ramu                                                                                                                                     
+
+Identity Number = 12                                                                                                                            
+
+Age = 25                                                                                                                                        
+
+Salary = 50000                                                                                                                                  
+
+Designition = Content
+
+Case 1
+Input (stdin)
+Ramu
+12
+25
+50000
+Content
+
+Output (stdout)
+Enter the first name =
+Enter the identity number =
+Enter the age =
+Enter the salary =
+Enter the designation of the Engineer:
+Displaying the particulars of the Engineer
+Name = Ramu
+Identity Number = 12
+Age = 25
+Salary = 50000
+Designition = Content
