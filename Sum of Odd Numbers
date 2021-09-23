@@ -1,0 +1,25 @@
+Sum of odd numbers
+Write a C++ Program to find the Sum of odd numbers between 1 and n range using class
+Input Format:
+
+Input consists of an integer
+
+Output Format:
+
+Output consists of an integer
+
+Sample Input:
+
+129
+
+Sample Output:
+
+4225
+
+Case 1
+Case 2
+Input (stdin)
+100
+
+Output (stdout)
+2500
