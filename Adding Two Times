@@ -1,0 +1,44 @@
+Adding two times
+Write a C++ program to add Two timings and print the output.
+Input Format:
+
+The first and fourth input corresponds to the hours
+
+The second and fifth input corresponds to the minutes
+
+The third and sixth input corresponds to the second
+
+Output Format:
+
+Refer sample output
+
+Sample Input:
+
+1
+
+15
+
+12
+
+1
+
+15
+
+12
+
+Sample Output:
+
+2:30:24
+
+Case 1
+Case 2
+Input (stdin)
+2
+120
+14
+1
+70
+12
+
+Output (stdout)
+6:10:26
