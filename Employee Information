@@ -1,0 +1,64 @@
+Employee Information
+C++ program to read and print employee information using multiple inheritance.
+Sample Input
+
+Enter employee's basic info:                                                                                                                    
+
+Enter Name: Raju                                                                                                                                
+
+Enter Emp. Id: 23                                                                                                                               
+
+Enter Gender: M                                                                                                                                 
+
+Enter employee's department info:                                                                                                               
+
+Enter Department Name: Product Development                                                                                                      
+
+Enter assigned work: PPT WORk                                                                                                                   
+
+Enter time in hours to complete work: 24
+
+Sample Output:
+
+Employee's Information is:                                                                                                                      
+
+Basic Information...:                                                                                                                           
+
+Name: Raju                                                                                                                                      
+
+Employee ID: 23                                                                                                                                 
+
+Gender: M                                                                                                                                       
+
+                                                                                                                                                
+
+Department Information...:                                                                                                                      
+
+Department Name: Product Development                                                                                                            
+
+Assigned Work: PPT WORk                                                                                                                         
+
+Time to complete work: 24
+
+Case 1
+Input (stdin)
+Raju
+23
+M
+Product Development
+PPT WORK
+24
+
+Output (stdout)
+Enter employee's basic info:
+Enter Name: Enter Emp. Id: Enter Gender: Enter employee's department info:
+Enter Department Name: Enter assigned work: Enter time in hours to complete work: Employee's Information is:
+Basic Information...:
+Name: Raju
+Employee ID: 23
+Gender: M
+
+Department Information...:
+Department Name: Product Development
+Assigned Work: PPT WORK
+Time to complete work: 24
