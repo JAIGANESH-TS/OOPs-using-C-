@@ -1,4 +1,4 @@
-Arithmetic operations
+/*Arithmetic operations
 Write a c++ program to implement arithmetic operations by creating a class and objects.
 Input Format:
 
@@ -61,3 +61,43 @@ Output (stdout)
 3
 54
 1
+solu:-*/
+#include<iostream>
+using namespace std;
+
+class Calculator{
+  public:
+  	void printValues(){
+      add();
+      sub();
+      multiply();
+      divide();
+    }
+  private:
+  	void add(){
+      int a,b;
+      cin >> a >> b;
+      cout << a+b << endl;
+    }
+  	void sub(){
+      int a,b;
+      cin >> a >> b;
+      cout << a-b << endl;
+    }
+  	void multiply(){
+      int a,b;
+      cin >> a >> b;
+      cout << a*b << endl;
+    }
+  	void divide(){
+      int a,b;
+      cin >> a >> b;
+      cout << a/b;
+    }
+};
+
+int main()
+{
+  Calculator calc;
+  calc.printValues();
+}
