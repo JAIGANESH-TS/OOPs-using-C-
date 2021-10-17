@@ -1,4 +1,4 @@
-MNC company
+/*MNC company
 In an MNC company, the employee need to be get promoted for highest position. But they need to qualify the certain process which we need to search their name and to sort out them by salaries. Help them to sort out the list of employees for the promotion by creating class and objects in C++.
 Input Format:
 
@@ -161,3 +161,61 @@ Data is Sorted!!!
 3. Sort Data by Name
 4. Exit:
 Enter Your Choice :
+solu:-*/
+#include<iostream>
+using namespace std;
+class Employee{
+  public:
+    int id;
+    string name;
+    int salary;
+};
+int main()
+{
+  cout << "Enter No.of Records You Want :" << endl;
+  int n;
+  cin >> n;
+  Employee emp[n];
+  int i=0,t;
+  while(true){
+    cout << "1. Accept Data" << endl;
+    cout << "2. Display Data" << endl;
+    cout << "3. Sort Data by Name" << endl;
+    cout << "4. Exit:" << endl;
+    cout << "Enter Your Choice :" << endl;
+    cin >> t;
+    if (t==1){
+      for(int i=0;i<n;i++){
+        cout << "Enter Data for Employee " << i+1 << endl;
+        cout << "Enter Staff Id :" << endl;
+        cin >> emp[i].id;
+        cout << "Enter Staff Name :" << endl;
+        cin >> emp[i].name;
+        cout << "Enter Salary :" << endl;
+        cin >> emp[i].salary;
+      }
+    }
+    else if(t==2){
+      for(int j=0;j<n;j++){
+        cout << "Staff Id : " << emp[j].id << endl;
+        cout << "Name : " << emp[j].name << endl;
+        cout << "Salary : " << emp[j].salary << endl << endl;
+      }
+    }
+    else if (t==3){
+      for(int j=0;j<n-1;j++){
+        for(int k=j+1;k<n-j-1;k++){
+          if (emp[j].name>emp[k].name){
+            Employee temp=emp[j];
+            emp[j]=emp[k];
+            emp[k]=temp;
+          }
+        }
+      }
+      cout << "Data is Sorted!!!" << endl << endl;
+    }
+    else
+      break;
+  }
+  
+}
