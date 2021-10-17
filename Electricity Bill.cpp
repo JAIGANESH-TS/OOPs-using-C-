@@ -1,4 +1,4 @@
-Electricity Bill
+/*Electricity Bill
 Write a C++ Program to Calculate the Electricity Bill. If the unit is less than or equal to 100, the cost of a unit is Rs.1.20 If the unit is less than or equal to 300, the cost of the first 100 units remains the same. For remaining units, the cost of a unit is Rs.2. If the unit is greater than or equal to 300, the first 100 and 200 units remain the same. For remaining units, the cost of a unit is Rs.3
 Input Format:
 
@@ -46,3 +46,37 @@ Output (stdout)
 Siva
 70
 84
+solu:-*/
+#include<iostream>
+using namespace std;
+
+class Electricity{
+  private:
+  	int no, cons;
+  	string name;
+  public:
+  	Electricity(){
+      cin >> no >> name >> cons;
+    }
+  	float calculateBill(){
+      cout << no << endl;
+      cout << name << endl;
+      cout << cons << endl;
+      float amount=0;
+      if (cons>=300){
+        return 1.2*100+2*(cons-100)+3*(cons-200);
+      }
+      if (cons<=100){
+        return 1.2*cons;
+      }
+      if (cons<=200){
+        return 1.2*100+2*(cons-100);
+      }
+    }
+};
+int main()
+{
+	Electricity elec;
+  	cout << elec.calculateBill();
+	return 0;
+}
