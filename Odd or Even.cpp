@@ -1,4 +1,4 @@
-Odd or Even
+/*Odd or Even
 Write a C++ program to find given no is odd or even using class. If the number is odd print "ODD", else print "EVEN"
 Input Format:
 
@@ -23,3 +23,27 @@ Input (stdin)
 
 Output (stdout)
 ODD
+solu:-*/
+#include <iostream>
+using namespace std;
+
+class Number{
+  private:
+  int n;
+  public: 
+  void set(int n){
+    this->n=n;
+  }
+  string OddOrEven(){
+    return ((n%2==0)?"EVEN":"ODD");
+  }
+};
+int main() 
+{
+  int n;
+  cin >> n;
+  Number num;
+  num.set(n);
+  cout << num.OddOrEven();
+  return 0;
+}
