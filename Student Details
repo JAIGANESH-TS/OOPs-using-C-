@@ -31,8 +31,8 @@ Roll Number:12
 
 Total:458
 
-Percentage:91.6*/
-SOl:-
+Percentage:91.6
+SOl:-*/
 #include<iostream>
 using namespace std;
 class Student{
