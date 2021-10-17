@@ -23,7 +23,7 @@ Input (stdin)
 
 Output (stdout)
 2500
-solu:-
+solu:-*/
 #include<iostream>
 using namespace std;
 
