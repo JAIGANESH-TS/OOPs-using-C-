@@ -1,4 +1,4 @@
-Binary (+) Operator
+/*Binary (+) Operator
 Write a C++ program to add two objects using binary plus (+) operator overloading
 Input and Output Format
 
@@ -22,3 +22,14 @@ Input (stdin)
 
 Output (stdout)
 Number is: 15
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+   //Type your code here..
+  int a;
+  cin>>a;
+  a=-a;
+  cout<<"value of n is: "<<a;
+}
