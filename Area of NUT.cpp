@@ -1,4 +1,4 @@
-Area of NUT
+/*Area of NUT
 Gany wants to fix the fan(Ceiling Fan) in his home, but he missed the BOLT. He needs to buy a new BOLT according to the NUT. He needs to calculate the area of NUT. Help him to find out the area of NUT. NOTE : NUT shape = polygon. (i.e) Rectangle + Triangle. Use the polymorphism concept and write the C++ program for the above problem.
 Input Format :
 
@@ -33,3 +33,16 @@ Input (stdin)
 Output (stdout)
 25
 12
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	//type your code here;
+  int a;
+  int b;
+  cin>>a>>b;
+  cout<<a*b<<endl;
+  cout<<(a*b)/2;
+	return 0;
+}
