@@ -1,4 +1,4 @@
-Arun has a pool table(8 ball-pool table) and it is rectangular in shape. The pocket of the pool table is a circle shape. Arun wants to calculate the perimeter of the pool table and the perimeter of its pocket. Help him to find out.
+/*Arun has a pool table(8 ball-pool table) and it is rectangular in shape. The pocket of the pool table is a circle shape. Arun wants to calculate the perimeter of the pool table and the perimeter of its pocket. Help him to find out.
 Note: Use pure virtual function.
 
 Create a class with the name Shape.
@@ -63,3 +63,29 @@ Input (stdin)
 Output (stdout)
 Perimeter of rectangle: 14
 Perimeter of circle: 31.4
+solu:--*/
+import java.util.*;
+import java.io.*;
+public class Main
+{
+  public static void main(String args[])
+  {
+    //Try out your code here
+    Scanner in=new Scanner(System.in);
+    int a=in.nextInt();
+    int b=in.nextInt();
+    int c=in.nextInt();
+    System.out.println("Perimeter of rectangle: "+2*(a+b));
+    System.out.print("Perimeter of circle: ");
+    double val=2*3.14*c;
+    String v=""+val;
+    int index=v.indexOf('.');
+    System.out.print(v.substring(0,index+1));
+    String km=v.substring(index+1);
+    index=km.indexOf('0');
+    if(index<0)
+      index=km.length();
+    System.out.println(km.substring(0,index));
+  //  System.out.println(v);
+  }
+}
