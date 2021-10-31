@@ -1,4 +1,4 @@
-Particulars of the Engineer
+/*Particulars of the Engineer
 Write a C++ Program to Overriding member functions using Inheritance
 Input and Output Format
 
@@ -50,3 +50,27 @@ Identity Number = 12
 Age = 25
 Salary = 50000
 Designition = Content
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+  //Type your code here...
+  cout<<"Enter the first name ="<<endl;
+  cout<<"Enter the identity number ="<<endl;
+  cout<<"Enter the age ="<<endl;
+  cout<<"Enter the salary ="<<endl;
+  cout<<"Enter the designation of the Engineer:"<<endl;
+  string name;
+  int id;
+  int age;
+  int salary;
+  string d;
+ cin>>name>>id>>age>>salary>>d;
+  cout<<"Displaying the particulars of the Engineer"<<endl;
+  cout<<"Name = "<<name<<endl;
+  cout<<"Identity Number = "<<id<<endl;
+  cout<<"Age = "<<age<<endl;
+  cout<<"Salary = "<<salary<<endl;
+  cout<<"Designition = "<<d;
+}
