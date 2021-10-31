@@ -28,8 +28,9 @@ using namespace std;
 int main()
 {
    //Type your code here..
-  int a;
+  int a,b;
   cin>>a;
-  a=-a;
-  cout<<"value of n is: "<<a;
+  cin>>b;
+  a=a+b;
+  cout<<"Number is: "<<a;
 }
