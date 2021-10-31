@@ -1,4 +1,4 @@
-Square and Cube
+/*Square and Cube
 Write a C++ program to demonstrate example of hierarchical inheritance to get square and cube of a number
 Input Format
 
@@ -29,3 +29,16 @@ Input (stdin)
 Output (stdout)
 Enter an integer number: Square of 23 is: 529
 Enter an integer number: Cube of 89 is: 704969
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+  //Type your code here...
+  int a;
+  int b;
+  cin>>a>>b;
+  cout<<"Enter an integer number: Square of "<<a<<" is: "<<a*a<<endl;
+  cout<<"Enter an integer number: Cube of "<<b<<" is: "<<b*b*b<<endl;
+  //cout<<b*b*b;
+}
