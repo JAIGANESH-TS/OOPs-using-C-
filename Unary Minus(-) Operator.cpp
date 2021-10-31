@@ -1,4 +1,4 @@
-Unary Minus (-) Operator
+/*Unary Minus (-) Operator
 Write a C++ program for unary minus (-) operator overloading
 Input and Output Format
 
@@ -19,3 +19,14 @@ Input (stdin)
 
 Output (stdout)
 value of n is: -50
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+   //Type your code here..
+  int a;
+  cin>>a;
+  a=-a;
+  cout<<"value of n is: "<<a;
+}
