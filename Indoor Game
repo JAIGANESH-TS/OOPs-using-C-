@@ -1,4 +1,4 @@
-Indoor Game
+/*Indoor Game
 Ajju has a Carom board and TT table (Table Tennis). Ree needs those games. She can get it if it gives the correct answer to the Ajju’s question. He asked an area of the carom board and TT table. Ree needs your help, Help her to get those games from Ajju. NOTE: Use the polymorphism concept and write the C++ program for the above problem.
 Input Format :
 
@@ -42,3 +42,14 @@ Input (stdin)
 Output (stdout)
 9
 510
+solu:--*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	//type your code here;
+  int a,b,c;
+  cin>>a>>b>>c;
+  cout<<a*a<<endl<<b*c;
+	return 0;
+}
