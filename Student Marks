@@ -1,4 +1,4 @@
-Students Marks
+/*Students Marks
 In school, the teacher wants to calculate the subject marks of the student. she can do it by manual but the number of students in the class was around 250. she wants to calculate the specific subject marks for individual students in the class. Because she wanted to highlight the important subject marks to their parents in the parents-teachers association meeting. Can you help her to calculate the subject marks by writing code in c++ program?
 Input Format
 
@@ -43,3 +43,30 @@ Roll Number Is:
 Subject 1:10
 Subject 2:20
 Total:30
+sum:--*/
+#include<iostream>
+using namespace std;
+class marks
+{
+  int a,b,c;
+  public:
+  void get()
+  {
+    cin>>a>>b>>c;
+  }
+  void print()
+  {
+    cout<<"Roll Number Is:"<<endl;
+    cout<<a<<endl;
+    cout<<"Subject 1:"<<b<<endl;
+    cout<<"Subject 2:"<<c<<endl;
+    cout<<"Total:"<<b+c;
+  }
+};
+int main()
+{
+  //Type your code here...
+  marks m;
+  m.get();
+  m.print();
+}
